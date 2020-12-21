@@ -4,7 +4,7 @@ if N_elements(level) eq 0 then level='C2'
 if N_elements(AR) eq 0 then AR='NONE'
 if N_elements(download) eq 0 then download=0
 if N_elements(curl_path) eq 0 then curl_path='C:\Users\Thomas\work\HSOS\FSMT\calibration\curl-7.61.0-win64-mingw\bin\'
-if N_elements(server) eq 0 then server='http://localhost:8080/FSMT/FsmtQueryData'
+if N_elements(server) eq 0 then server='https://sun10.bao.ac.cn/HSOS/FsmtQueryData'
 if N_elements(T0) eq 0 then T0='2017-07-12T00:00:00'
 if N_elements(T1) eq 0 then T1='2017-07-12T23:59:59'
 
